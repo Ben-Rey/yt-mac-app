@@ -1,0 +1,14 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+
+# Swift
+*.swiftpm/
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/
+*.swiftdoc
+*.swiftsourceinfo
