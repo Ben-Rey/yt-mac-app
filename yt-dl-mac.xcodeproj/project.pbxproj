@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D039BD5D2A3235A60085A497 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D039BD5C2A3235A60085A497 /* ContentView.swift */; };
 		D0BE65EC2A2281200050E135 /* yt_dl_macApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE65EB2A2281200050E135 /* yt_dl_macApp.swift */; };
-		D0BE65EE2A2281200050E135 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE65ED2A2281200050E135 /* ContentView.swift */; };
 		D0BE65F02A2281210050E135 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BE65EF2A2281210050E135 /* Assets.xcassets */; };
 		D0BE65F32A2281210050E135 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0BE65F22A2281210050E135 /* Preview Assets.xcassets */; };
 		D0BE65FE2A2281210050E135 /* yt_dl_macTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BE65FD2A2281210050E135 /* yt_dl_macTests.swift */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D039BD5C2A3235A60085A497 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0BE65E82A22811F0050E135 /* yt-dl-mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yt-dl-mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0BE65EB2A2281200050E135 /* yt_dl_macApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yt_dl_macApp.swift; sourceTree = "<group>"; };
-		D0BE65ED2A2281200050E135 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0BE65EF2A2281210050E135 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0BE65F22A2281210050E135 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0BE65F42A2281210050E135 /* yt_dl_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = yt_dl_mac.entitlements; sourceTree = "<group>"; };
@@ -96,10 +96,10 @@
 			isa = PBXGroup;
 			children = (
 				D0BE65EB2A2281200050E135 /* yt_dl_macApp.swift */,
-				D0BE65ED2A2281200050E135 /* ContentView.swift */,
 				D0BE65EF2A2281210050E135 /* Assets.xcassets */,
 				D0BE65F42A2281210050E135 /* yt_dl_mac.entitlements */,
 				D0BE65F12A2281210050E135 /* Preview Content */,
+				D039BD5C2A3235A60085A497 /* ContentView.swift */,
 			);
 			path = "yt-dl-mac";
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0BE65EE2A2281200050E135 /* ContentView.swift in Sources */,
+				D039BD5D2A3235A60085A497 /* ContentView.swift in Sources */,
 				D0BE65EC2A2281200050E135 /* yt_dl_macApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

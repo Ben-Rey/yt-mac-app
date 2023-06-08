@@ -9,9 +9,16 @@ import SwiftUI
 
 @main
 struct yt_dl_macApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+    
+        var body: some Scene {
+            WindowGroup {
+                ContentView()
+            }
         }
+}
+
+struct Previews_yt_dl_macApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
     }
 }
